@@ -46,7 +46,7 @@ const AboutMe = ({submit, reset}) => {
                             <p>Message</p>
                             <textarea className="rightSide__textArea" placeholder="Put your message here"/>
                             <br />
-                            <button className="rightSide__button" onClick={submit}>Submit</button>
+                            <button disabled className="rightSide__button" onClick={submit}>Submit</button>
 
                             <input type="reset" className="rightSide__button" value="Reset"/>
                         </form>
