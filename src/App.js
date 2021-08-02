@@ -26,7 +26,7 @@ function App() {
           <SideDrawer show={sideToggle} click={() => setSideToggle(false)} />
           <BackDrop show={sideToggle} click={() => setSideToggle(false)} />
           <Switch>
-            <Route exact path="/Home">
+            <Route exact path="/">
               <Home />
             </Route>
             <Route path="/Projects">

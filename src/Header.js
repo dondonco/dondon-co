@@ -15,7 +15,7 @@ const Header = ({click}) => {
             </div>
             <div className="header__rightSide">
                 <div className="nav__links">
-                    <NavLink to="/Home" exact activeClassName="navActive">
+                    <NavLink to="/" exact activeClassName="navActive">
                         <div className="nav">Home</div>
                         </NavLink>
                     <NavLink to="/Projects" activeClassName="navActive">
