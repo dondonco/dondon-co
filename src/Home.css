@@ -1,15 +1,22 @@
+.home {
+  background: rgba(0, 0, 0, 0.15);
+  height: 100vh;
+}
 .container {
   display: flex;
-}
-
-.container__left {
 }
 
 .container__right {
   margin: 50px;
   padding: 30px;
   border: 2px solid #171717;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   border-radius: 25px;
+  background: #f4f4f4;
+}
+
+.container__right > p {
+  text-indent: 30px;
 }
 
 @media (max-width: 900px) {
