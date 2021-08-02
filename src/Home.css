@@ -3,13 +3,24 @@
 }
 
 .container__left {
-  flex: 0.5;
 }
 
 .container__right {
-  flex: 0.5;
-  margin-top: 20px;
-  padding: 20px;
+  margin: 50px;
+  padding: 30px;
   border: 2px solid #171717;
   border-radius: 25px;
+}
+
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__right {
+    margin: 25px;
+    padding: 30px;
+    border: 2px solid #171717;
+    border-radius: 25px;
+  }
 }
