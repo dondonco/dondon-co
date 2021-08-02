@@ -1,0 +1,8 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  width: fit-content;
+}

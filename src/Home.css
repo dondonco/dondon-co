@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.container__left {
+  flex: 0.5;
+}
+
+.container__right {
+  flex: 0.5;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #171717;
+  border-radius: 25px;
+}

@@ -1,0 +1,56 @@
+.side__nav,
+.side__nav:visited {
+  cursor: url("white-cursor.png"), pointer;
+  padding: 10px;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  color: #ffffff;
+  -webkit-border-radius: 50px;
+}
+
+.navActive {
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  background: rgba(255, 255, 255, 0.788);
+  color: #000000;
+}
+.side__nav:hover {
+  background: #fff;
+  color: #000000;
+  cursor: url("white-cursor.png"), pointer;
+}
+
+.side__nav:active {
+  cursor: url("red-cursor.png"), pointer;
+}
+
+.sideDrawer {
+  width: 70%;
+  height: 100vh;
+  background: #272727;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  transform: translate(-100%);
+  transition: all 0.3s ease-out;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sideDrawer.show {
+  transform: translateX(0);
+}
+
+.sideDrawer__links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+  flex: 1;
+  color: #171717;
+}

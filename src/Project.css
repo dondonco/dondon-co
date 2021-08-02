@@ -1,0 +1,31 @@
+.project {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 20px 30px;
+  display: flex;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+.project__leftSide {
+  flex: 0.2;
+}
+
+.project__logo {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.project__rightSide {
+  flex: 0.6;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.project__name {
+  font-weight: bold;
+  font-size: large;
+}
