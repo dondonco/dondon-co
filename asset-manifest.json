@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dondon-co/static/css/main.e95a886c.chunk.css",
+    "main.js": "/dondon-co/static/js/main.ecbcbef6.chunk.js",
+    "main.js.map": "/dondon-co/static/js/main.ecbcbef6.chunk.js.map",
+    "runtime-main.js": "/dondon-co/static/js/runtime-main.d1462560.js",
+    "runtime-main.js.map": "/dondon-co/static/js/runtime-main.d1462560.js.map",
+    "static/js/2.9deceaaa.chunk.js": "/dondon-co/static/js/2.9deceaaa.chunk.js",
+    "static/js/2.9deceaaa.chunk.js.map": "/dondon-co/static/js/2.9deceaaa.chunk.js.map",
+    "static/js/3.b9526c9a.chunk.js": "/dondon-co/static/js/3.b9526c9a.chunk.js",
+    "static/js/3.b9526c9a.chunk.js.map": "/dondon-co/static/js/3.b9526c9a.chunk.js.map",
+    "index.html": "/dondon-co/index.html",
+    "static/css/main.e95a886c.chunk.css.map": "/dondon-co/static/css/main.e95a886c.chunk.css.map",
+    "static/js/2.9deceaaa.chunk.js.LICENSE.txt": "/dondon-co/static/js/2.9deceaaa.chunk.js.LICENSE.txt",
+    "static/media/2x2.23c90195.png": "/dondon-co/static/media/2x2.23c90195.png",
+    "static/media/SideDrawer.css": "/dondon-co/static/media/white-cursor.a5c20185.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1462560.js",
+    "static/js/2.9deceaaa.chunk.js",
+    "static/css/main.e95a886c.chunk.css",
+    "static/js/main.ecbcbef6.chunk.js"
+  ]
+}
