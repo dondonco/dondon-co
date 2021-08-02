@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
-//import Project from './Project';
-//import Web from './web.png'
+import Project from './Project';
+import Web from './web.png'
 
 const Projects = () => {
     return (
@@ -13,13 +13,13 @@ const Projects = () => {
             </div>
 
             <div className="projects__body">
-                {/* 
+                
                 <Project 
-                name="Basic Ecommerce" 
-                tools="HTML, CSS, Javascript"
-                description="Simple ecommerce website with add to cart function, data persistence, ... created using MERN(MonggoDB, Express, React, Node)"
+                name="Simple Login Authentication" 
+                tools="HTML, CSS, Javascript, Firebase"
+                description="Simple Signup/Signin webpage that uses email authentication from firebase created using react"
                 img={Web}/>
-            */}
+            
             </div>
         </div>
     )
