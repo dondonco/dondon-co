@@ -32,6 +32,51 @@
   font-weight: bold;
 }
 
+.rightSide__message form .rightSide__field {
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.rightSide__message form .rightSide__field input,
+.rightSide__message form .rightSide__field textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid #171717;
+}
+.rightSide__message form .rightSide__field input:focus,
+.rightSide__message form .rightSide__field textarea:focus {
+  border-color: #000000;
+  border: 2px solid;
+}
+
+form .rightSide__field input:focus ~ label,
+form .rightSide__field input:valid ~ label,
+form .rightSide__field textarea:focus ~ label,
+form .rightSide__field textarea:valid ~ label {
+  top: 0%;
+  font-size: 16px;
+  color: #000000;
+  background: #fff;
+  transform: translateY(-50%);
+}
+
+.rightSide__message form .rightSide__field label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: #999;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
 .rightSide__button {
   margin: 5px;
   display: inline-block;
@@ -42,6 +87,12 @@
   box-shadow: inset 0 2px 0 rgba(244, 244, 244, 0.2);
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+}
+
+.rightSide__button:active {
+  transform: scale(0.9);
 }
 
 .input__type {
@@ -49,14 +100,10 @@
   height: 30px;
 }
 
-.rightSide__textArea {
-  width: 300px;
-  height: 200px;
-}
-
 .rightSide__message {
   padding: 10px;
   margin: 10px;
+  height: fit-content;
 }
 
 h1,
@@ -83,5 +130,9 @@ h6 {
   }
   .aboutMe__rightSide {
     margin: 10px 30px 30px;
+  }
+  .rightSide__message {
+    padding: 10px;
+    margin: 10px;
   }
 }

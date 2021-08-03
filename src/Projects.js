@@ -15,7 +15,7 @@ const Projects = () => {
             <div className="projects__body">
                 
                 <Project 
-                name="Simple Login Authentication" 
+                name="Login Authentication" 
                 tools="HTML, CSS, Javascript, Firebase"
                 description="Simple Signup/Signin webpage that uses email authentication from firebase created using react"
                 img={Web}/>

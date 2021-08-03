@@ -39,12 +39,18 @@ const AboutMe = ({submit, reset}) => {
                         <form>
                             <p>Any message, comments, criticism, suggestions, tips, or
                                  advice is appreciated.</p>
-                            <p>Name</p>
-                            <input className="input__type" type="text" placeholder="Put your name here"/>
-                            <p>Email</p>
-                            <input className="input__type" type="email" placeholder="Put your email address here"/>
-                            <p>Message</p>
-                            <textarea className="rightSide__textArea" placeholder="Put your message here"/>
+                            <div className="rightSide__field">
+                                <input className="input__type" type="text" />
+                                <label>Name</label>
+                            </div>
+                            <div className="rightSide__field">
+                                <input className="input__type" type="email" />
+                                <label>Email</label>
+                            </div>
+                            <div className="rightSide__field">
+                                <textarea className="rightSide__textArea" />
+                                <label>Message</label>
+                            </div>
                             <br />
                             <button disabled className="rightSide__button" onClick={submit}>Submit</button>
 
